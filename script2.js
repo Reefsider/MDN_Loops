@@ -21,7 +21,7 @@ let phonebook = [
      let searchName = input.value.toLowerCase();
      input.value = '';
      input.focus();
-   i=0;
+     i=0;
      do {
         if (phonebook[i].name.toLowerCase() === searchName) {
             para.textContent = phonebook[i].name + '\'s number is ' + phonebook[i].number + '.';
